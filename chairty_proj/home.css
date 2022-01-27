@@ -1,0 +1,170 @@
+body{
+    background-color: #575c59;
+}
+
+.navbar{
+    width: 100%;
+    background-color: #9FB8AD;
+    overflow: hidden;
+}
+
+.navbar a.nav-link{
+    float: left;
+    padding: 10px;
+    color: #1E212D;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-top: 0.3rem;
+    }
+
+.navbar a:hover{
+    color: #fff;
+}
+
+
+@media screen and (max-width: 500px) {
+    .navbar a.nav-link a#brand{
+      float: none;
+      display: block;
+    }
+
+    
+}
+
+.navbar a#brand{
+    float: left;
+    font-size: 1.75rem;
+    line-height: inherit;
+    white-space: nowrap;
+    text-align: center;
+    padding: 10px;
+    color: #1E212D;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a#brand:hover{
+    color: #fff;
+}
+
+.brandIcon{
+    float: left;
+    text-align: center;
+    margin-right: 7px;
+    width: 30px;
+    height: 30px;
+    left: 33px;
+    top: 10px;
+}
+
+.happy{
+    width: 100%;
+    max-height: 632px;
+    left: 0px;
+    top: 75px;
+    opacity: 0.7;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    font-size: 2vw;
+    z-index: 1;
+    color: #fff;
+}
+
+.centered .mButtons{
+    background-color: rgba(51, 122, 183, 0.8);
+    border-radius: 20px;
+    padding: 10px 40px;
+    color: white;
+    font-weight: bold;
+    display: inline;
+    border: none;
+    cursor: pointer;
+    font-size: large;
+}
+
+@media(max-width:1200px){
+    .centered{
+        top: 35%;
+        left:50%
+    }
+    .centered .mButtons{
+        margin-bottom: 5px;
+        font-size: small;
+    }
+}
+
+#contacted{
+    box-sizing: border-box;
+    font-family: sans-serif;
+ }
+   
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #9FB8AD;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+
+footer{
+    background: #9FB8AD;
+}
+
+.footer-content{
+    max-width: 1300px;
+    margin: auto;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.right-col h1{
+    color: #1E212D;
+}
+
+@media(max-width: 960px){
+    .footer-content{
+        max-width: 600px;
+    }
+
+    .right-col{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .left-col{
+        width: 100%;
+    }
+}
+
+div.left-col li a{
+    text-decoration: none;
+    color: #1E212D;
+    font-size: 17pt;
+}
+
+div.left-col li a:hover{
+    background-color: #1E212D;
+    color: white;
+    font-weight: bold;
+}
+
+p.right-text{
+    text-align: center;
+    font-size: 13pt;
+    font-weight: bold;
+    margin: 5px;
+    color: #1E212D;
+}

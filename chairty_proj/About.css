@@ -1,0 +1,129 @@
+*,*::after,*::before {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background-color: #C5D7BD;
+    color: #1E212D;
+}
+
+.nav-content {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+
+    width: 150px;
+    height: 125px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.brand-name {
+
+    font-size: 30px;
+    color: #1E212D;
+    margin-bottom: 20px;
+}
+
+.about-content > p {
+
+    font-size: 24px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+hr {
+
+    background-color: black;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.column {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+
+    color: #1E212D;
+}
+
+.column-items {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33.33%;
+}
+
+.column-items > p {
+
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+.column-items img {
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.copyright {
+
+    color: #1E212D;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    width: 100%;
+}
+
+footer {
+
+    position:static;
+    width: 100%;
+    bottom: 10px;
+    margin-top: 40px;
+}
+
+.icons {
+
+    margin-top: 1em;
+    
+}
+
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+
+        display: block;
+        margin-bottom: 20px;
+    }
+    
+    .column-items  {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
